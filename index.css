@@ -87,8 +87,101 @@ border-radius: 3px ;
 height: 24px;
 }
 
+/* /////////goat style css/////// */
+
+main{
+    max-width: 100%;
+}
+
+.goat-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
 
 
+}
+.goat-conten{
+
+width: 50%;
+text-align: center;
+
+}
+.goat-img-content{
+
+
+}
+.goat-pic{
+
+width: 90%;
+
+}
+
+.goat-1st{
+
+padding-top: 20px;
+color: #0B0223;
+font-size: 40px;
+font-weight: 600;
+text-align: center;
+
+}
+.goat-title{ 
+font-size: 60px;
+font-weight: 800;
+color: #F948B2 ;
+text-align: center;
+padding-right: 30px;
+
+}
+
+.para-common{
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+list-style: none;
+padding-right:15px ;
+
+
+}
+.button-1{
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+width: 120px;
+height: 50px;
+border-radius: 30px;
+background-color:#F948B2;
+
+margin: 20px;
+text-align: center;
+
+}
+.butoon-2{
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+width: 130px;
+height: 50px;
+border-radius: 30px;
+background-color: #4EC5F7;
+text-align: center;
+
+
+
+}
+.main-bk{
+background-image: url(./images/Group\ 14.png);
+width: 100%;
+}
+.li{
+display: flexbox;
+margin: 0 auto;
+}
+
+
+
+
+/* ///////////////// media sreen style/////////// */
 
 
 @media screen and (max-width:576px) {
@@ -102,5 +195,11 @@ height: 24px;
 }
 .nav-content{
    flex-direction: column; 
+}
+
+.goat-container{
+   flex-direction: column-reverse;
+   
+ 
 }
 }
