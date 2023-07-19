@@ -508,3 +508,81 @@ padding: 0  40px;
       
         }
        
+        /* ////////// media for laptet/////// */
+        @media screen and (min-width:576px) and (max-width:962px) {
+
+            .nav-container{
+                flex-direction: column;
+                 
+             }
+             .nav-logo{
+             flex-direction: column;
+          
+          }
+          .nav-content{
+             flex-direction: column; 
+          }
+          
+          .goat-container{
+             flex-direction: column-reverse;
+             
+           
+          }
+          .play-container{
+          flex-direction: column-reverse;
+          margin: 0px 0px;
+          padding: 0  40px;
+           } 
+           .play-img{
+              margin-top: 20px;
+          
+              width: 100%;
+            
+              }
+              .play-img-down{
+                  width: 70%;
+               
+                  
+                position: relative;
+               
+                right: 0px;
+                  
+                  }
+                  .gamer-container{
+                 
+                      flex-direction: column;
+                      padding: 0px 0px;
+                      margin-top: 50px;
+                    
+                    }
+          
+                    .online-game{
+                   flex-direction: column;
+                     
+                      
+                      /* margin: 50px 10px; */
+                      width: 97%;
+                      padding-left: 0px;
+                    }
+          
+                    
+                  .grid{
+              
+              grid-template-columns:1fr;
+            
+              padding: 0px;
+                     }
+          
+                     .gamer-icon{
+                     flex-direction: column;
+                      
+                   }
+                   .p{
+                      flex-direction: column;
+                  }
+                  .icon{
+                    flex-direction: column;
+                  }
+                
+            
+        }
