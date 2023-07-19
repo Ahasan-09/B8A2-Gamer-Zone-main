@@ -229,6 +229,84 @@ right: 70px;
 
 }
 
+
+
+
+/* Grid section */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 120px 300px;
+}
+
+.grid-container{
+    display: flex;
+    gap: 10px ;
+}
+
+.grid-container:hover{
+    border: 1px solid #F948B2;
+    border-radius: 15pc;
+    padding: 5px;
+
+}
+
+/* footer setion */
+
+
+
+.gamer-icon{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.span{
+    color: #F948B2;
+}
+
+.footer{
+    background-color: black;
+    padding: 50px;
+}
+
+.gamer{
+    color: white;
+    font-size: xx-large;
+    
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+}
+
+.last{
+    color: white;
+    text-align: center;
+}
+
+
 /* /////////////We are gamer sty/e//// */
 
 
